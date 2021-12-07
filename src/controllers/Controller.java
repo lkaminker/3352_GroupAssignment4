@@ -1,6 +1,7 @@
 package controllers;
 
 public class Controller{
+
     models.Model model;
     views.View view;
 
