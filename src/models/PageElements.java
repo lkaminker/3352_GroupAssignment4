@@ -7,7 +7,7 @@ public class PageElements{
     List<PageElements> elements = new ArrayList<PageElements>();
 
     public void attach(PageElements newElement){
-        this.PageElements.add(newElement);
+        this.elements.add(newElement);
     }
 
     public void setElements(List<PageElements> elements) {
@@ -18,8 +18,8 @@ public class PageElements{
         return elements;
     }
 
-    public void dettach(PageElements){
-        this.page.remove(Element);
+    public void dettach(PageElements element){
+        this.elements.remove(element);
     }
 
 

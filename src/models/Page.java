@@ -18,7 +18,7 @@ public class Page{
         return page;
     }
 
-    public void dettach(Page){
+    public void dettach(Page page){
         this.page.remove(page);
     }
 

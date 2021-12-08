@@ -45,7 +45,7 @@ public class View extends models.Observer{
         }
 
         this.model = model;
-        this.model.attatch(this);
+        this.model.attach(this);
     }
 
     public controllers.Controller getController() {
